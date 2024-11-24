@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="todo-app">
+        <div id="summary">
+          <p>Total de tareas: <span id="total-tasks">0</span></p>
+          <p>Tareas completadas: <span id="completed-tasks">0</span></p>
+        </div>
+        <div id="task-container">
+          <form id="task-form">
+            <input type="text" id="task-input" placeholder="Nueva tarea" required />
+            <button type="submit">Agregar Tarea</button>
+          </form>
+          <ul id="task-list"></ul>
+        </div>
+      </div>
+      <script src="./assets/js/script.js"></script>
+</body>
+</html>
